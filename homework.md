@@ -104,7 +104,7 @@ Sigurd Watt
 Silvia Simonassi
 Stephen Ramsay
 Steve Vance
-Cody Abott
+Cody Abbott
 (21 rows)`
 
 4.  Return ONLY Olivia Wright's name from the 'people' table.
@@ -149,28 +149,28 @@ SELECT * FROM people;
 
 `id |        name        
 ----+--------------------
-  1 | Andrew Gray
-  2 | Andrew Kirkwood
-  3 | Andrew Wyper
-  4 | Catherine Hall
-  6 | Evan Smith
-  7 | Gary Clark
-  8 | James Fraser
-  9 | James Smith
- 10 | Jamie Ryan
- 11 | Jen Merritt
- 12 | Lauren Brett
- 13 | Luca Sanz Charreun
- 14 | Matteo Fusillo
- 15 | Olivia Wright
- 16 | Patrick ONeill
- 17 | Ross Cumming
- 18 | Sigurd Watt
- 19 | Silvia Simonassi
- 20 | Stephen Ramsay
- 21 | Steve Vance
-  5 | Cody Abbott
- 22 | Chris Fraser`
+ 1 | Andrew Gray
+ 2 | Andrew Kirkwood
+ 3 | Andrew Wyper
+ 4 | Catherine Hall
+ 6 | Evan Smith
+ 7 | Gary Clark
+ 8 | James Fraser
+ 9 | James Smith
+10 | Jamie Ryan
+11 | Jen Merritt
+12 | Lauren Brett
+13 | Luca Sanz Charreun
+14 | Matteo Fusillo
+15 | Olivia Wright
+16 | Patrick ONeill
+17 | Ross Cumming
+18 | Sigurd Watt
+19 | Silvia Simonassi
+20 | Stephen Ramsay
+21 | Steve Vance
+ 5 | Cody Abbott
+(21 rows)`
 
 7.  John Smith has decided to hijack our movie evening, Remove him from the table of people.
 
