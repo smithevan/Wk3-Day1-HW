@@ -263,3 +263,27 @@ SELECT * FROM movies;
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM movies WHERE title IN ('Black Panther', 'Thor: Ragnarok');
+select * FROM movies;
+
+`id |                title                | year | show_time
+----+-------------------------------------+------+-----------
+  1 | Iron Man                            | 2008 | 18:10
+  2 | The Incredible Hulk                 | 2008 | 16:45
+  3 | Iron Man 2                          | 2010 | 19:25
+  4 | Thor                                | 2011 | 14:55
+  5 | Captain America: The First Avenger  | 2011 | 13:40
+  6 | Avengers Assemble                   | 2012 | 18:10
+  7 | Iron Man 3                          | 2013 | 18:30
+  8 | Thor: The Dark World                | 2013 | 16:50
+  9 | Batman Begins                       | 2005 | 21:25
+ 10 | Captain America: The Winter Soldier | 2014 | 12:05
+ 11 | Guardians of the Galaxy             | 2014 | 14:00
+ 12 | Avengers: Age of Ultron             | 2015 | 16:30
+ 13 | Ant-Man                             | 2015 | 12:35
+ 14 | Captain America: Civil War          | 2016 | 20:40
+ 15 | Doctor Strange                      | 2016 | 21:50
+ 16 | Guardians of the Galaxy 2           | 2017 | 19:20
+ 17 | Spider-Man: Homecoming              | 2017 | 13:50
+(17 rows)`

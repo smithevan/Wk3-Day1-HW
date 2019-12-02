@@ -58,8 +58,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '19:3
 -- SELECT * FROM movies;
 
 
-UPDATE people SET name = 'Cody Abbott' WHERE name = 'Cosy Abott';
-SELECT * FROM people;
+-- UPDATE people SET name = 'Cody Abbott' WHERE name = 'Cosy Abott';
+-- SELECT * FROM people;
 --
 -- INSERT INTO people (name) VALUES ('Chris Fraser');
 -- DELETE FROM people WHERE name = 'John Smith';
@@ -72,3 +72,7 @@ SELECT * FROM people;
 
 -- DELETE FROM movies WHERE title = 'Batman Begins';
 -- SELECT * FROM movies;
+
+-------------------------------------extension -------------------
+DELETE FROM movies WHERE title IN ('Black Panther', 'Thor: Ragnarok');
+select * FROM movies;
